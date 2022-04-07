@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400|Lora");
+
+body {
+  background:url(../images/flower0.jpg);
+  background-size: cover;
+  opacity:1;
+  text-align: center;
+}
+
+.forget{
+	background: url(../images/forest2.jpg);
+}
+
+.greenbox{
+	position:absolute;
+	margin:0 auto;
+	background: rgba(0,0,0,0.2);
+	top:25%;
+	right:25%;
+	left:25%;
+	bottom:20%;
+	border-radius: 5px;
+	box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5);
+  	transition: all 0.5s ease-in-out;
+}
+
+.logoyes {
+	margin-top: 2cm;
+  width: 50px;
+  height: 50px;
+  opacity: 0.8;
+}
+
+
+
+
+a {
+  font-family: "Lora", serif;
+  text-align: center;
+  margin-top: 95vh;
+  color: #f6f6f6;
+  font-size: 3em;
+  letter-spacing: 8px;
+}
+
+h1{
+	text-align: center;
+	font-family: "Songti";
+	text-align: center;
+	color: rgb(255,255,255);
+	font-size: 1.5em;
+	letter-spacing:5px;
+}
+
+
+
+button {
+  padding: 12px;
+  font-family: "Lora", serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 11px;
+  border-radius: 10px;
+  margin: auto;
+  outline: none;
+  display: block;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff8080;
+  color: #f6f6f6;
+  transition: background-color 1s ease-out;
+}
+
+.button {
+  margin-top: 3%;
+  background: #f6f6f6;
+  color: #ff0080;
+  border: solid 1px #ff0080;
+}
+
+
+
+@keyframes anim { 
+	0% {opacity: 0;}
+	100%{opacity:1;}
+}
+
+

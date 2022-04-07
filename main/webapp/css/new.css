@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+button {
+  padding: 12px;
+  font-family: "MicroSoft YaHei";
+  text-transform: uppercase;
+  color: #0080c0;
+  letter-spacing: 3px;
+  font-size: 11px;
+  border-radius: 10px;
+  margin: auto;
+  outline: none;
+  display: block;
+  cursor: pointer;
+  background: #ffffff;
+  border: solid 1px #0080c0;
+}
+
+button:hover {
+  background: #0080ff;
+  color: #f6f6f6;
+  transition: background-color 1s ease-out;
+}
+
+.buttonpink{
+	color: #ff8080;
+	background: #ffffff;
+	border: solid 1px #ff8080;
+}
+.buttonpink:hover{
+	background: #ff8080;
+  color: #f6f6f6;
+  transition: background-color 1s ease-out;
+}
+
+.buttongreen{
+	color: #008080;
+	background: #ffffff;
+	border: solid 1px #008080;
+}
+
+.buttongreen:hover{
+	color: #ffffff;
+	background: #008080;
+	transition: background-color 1s ease-out;
+}

@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+body
+{
+	background: url(../images/sea.jpg);
+	background-size: cover;
+}
+
+div#banner {
+position: absolute;
+
+top: 0;
+
+left: 0;
+background-color: rgba(0,0,0,0.2);
+
+width: 100%;
+
+}
+
+div#banner-content {
+width: 800px;
+margin: 0 auto;
+text-align: center;
+padding: 20px;
+font-size: 1em;
+font-family: "Lora";
+color: #ffffff;
+}
+
+div#main-content {
+padding-top: 80px;
+}
+
+.logo1{
+	width: 120px;
+  height: 120px;
+  margin-top: 30px;
+  margin-left: 50px;
+  cursor: pointer;
+  animation-name: bubble;
+  animation-duration: 2.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+ }
+ 
+ .logo2{
+	width: 180px;
+  height: 180px;
+  margin-top: 80px;
+  margin-left: 100px;
+  cursor: pointer;
+  animation-name: bubble;
+  animation-duration: 2.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+ }
+ 
+ .logo3{
+	width: 100px;
+  height: 100px;
+  margin-top: 80px;
+  margin-left: 200px;
+  cursor: pointer;
+  animation-name: bubble;
+  animation-duration: 2.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+ }
+ 
+ .logo4{
+	width: 150px;
+  height: 150px;
+  margin-top: 50px;
+  margin-left: 300px;
+  cursor: pointer;
+  animation-name: bubble;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay:0.5s;
+ }
+ 
+a{
+	font-family: "MicroSoft YaHei";
+	font-size:1.5em;
+	color: #ffffff;
+}
+
+h1{
+	font-family: "MicroSoft YaHei";
+	font-size: 3em;
+	color: #ffffff;
+	text-align: center;
+	letter-spacing: 8px;
+	margin-top: 15%;
+	animation-name: example;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
+ 
+
+
+@keyframes example {
+  0%   {opacity: 1;}
+  100% {opacity: 0.8;}
+}
+
+@keyframes bubble {
+  0%   {opacity: 1;}
+  100% {opacity: 0.7; margin-top: 70px;}
+}

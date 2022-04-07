@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400|Lora");
+
+body {
+	background:url(../images/m2.jpg);
+	background-size:cover;
+  opacity:1;
+  text-align: center;
+}
+
+.pinkbox{
+	position:absolute;
+	margin:0 auto;
+	background: rgba(0,0,0,0.2);
+	top: 20%;
+	right:25%;
+	left:25%;
+	bottom:20%;
+	border: rgb(255, 128, 128);
+	border-radius: 15px;
+	box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+  	transition: all 0.5s ease-in-out;
+}
+
+.logoyes {
+	margin-top: 2cm;
+  width: 50px;
+  height: 50px;
+  opacity: 0.8;
+}
+
+
+
+
+a {
+  font-family: "Microsoft YaHei";
+  text-align: center;
+  margin-top: 95vh;
+  color: #f6f6f6;
+  font-size: 0.6em;
+  letter-spacing: 8px;
+}
+
+a:hover{
+	color:#008080;
+	cursor: pointer;
+}
+
+h1{
+	font-family: "Microsoft YaHei";
+	text-align: center;
+	color: #ffffff;
+	font-size: 0.8em;
+	letter-spacing:5px;
+}
+
+h2{
+	font-family: "Microsoft YaHei";
+	text-align: center;
+	color: #ffffff;
+	font-size: 1.5em;
+	letter-spacing:5px;
+}
+
+h3{
+	font-family: "Microsoft YaHei";
+	text-align: center;
+	color: #ffffff;
+	font-size: 2.0em;
+	letter-spacing:5px;
+}
+
+
+
+
+button {
+  padding: 12px;
+  font-family: "Microsoft YaHei";
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 11px;
+  border-radius: 10px;
+  margin: auto;
+  outline: none;
+  display: block;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #008000;
+  color: #ffffff;
+  transition: background-color 1s ease-out;
+}
+
+.button {
+  margin-top: 3%;
+  background: #80ff80;
+  color: #ff0080;
+  border: solid 1px #00ff80;
+}
+
+input {
+  background: #ffffff;
+  width: 65%;
+  color: #c0c0c0;
+  border: none;
+  border-bottom: 1px solid rgba(246, 246, 246, 0.5);
+  padding: 9px;
+  font-weight: 100;
+}
+
+input::placeholder {
+  color: #f6f6f6;
+  font-family: "Microsoft YaHei";
+  letter-spacing: 2px;
+  font-size: 1.0em;
+  font-weight: 100;
+}
+
+input:focus {
+  color: #008080;
+  outline: none;
+  border-bottom: 1.2px solid rgba(0, 128, 128, 0.7);
+  font-size: 1.0em;
+  transition: 0.8s all ease;
+}
+
+input:focus::placeholder {
+  opacity: 0;
+}
+
+
+@keyframes anim { 
+	0% {opacity: 0;}
+	100%{opacity:1;}
+}
+
+
